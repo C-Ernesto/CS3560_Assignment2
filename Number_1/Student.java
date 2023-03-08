@@ -5,7 +5,7 @@ public class Student {
 	private String major;
 	private double gpa;
 	
-	// Default value for name, major, and gpa is "None", "N/A", 0.0 respectively
+	// Default value for name, major, and gpa is null, null, 0.0 respectively
 	public Student() {
 		this(null, null, 0.0);
 	}
