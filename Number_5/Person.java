@@ -25,4 +25,8 @@ public class Person {
 		listWatch.add(watch);
 	}
 	
+	public ArrayList<Watch> getListWatch(){
+		return listWatch;
+	}
+	
 }
