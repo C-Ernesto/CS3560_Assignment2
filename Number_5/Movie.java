@@ -28,4 +28,8 @@ public class Movie {
 		listWatch.add(watch);
 	}
 	
+	public ArrayList<Watch> getListWatch(){
+		return listWatch;
+	}
+	
 }
